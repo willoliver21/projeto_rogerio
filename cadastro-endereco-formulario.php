@@ -25,10 +25,8 @@
             <td>CEP</td>
             <td><input class="form-control" type="text" name="cep" /></td>
         </tr>
-        <tr>
-            <td><button class="btn btn-primary" type="submit">Cadastrar</button></td>
-        </tr>
     </table>
+    <td><button class="btn btn-primary" type="submit">Cadastrar</button></td>
 </form>
 
 <?php include("rodape.php"); ?>
