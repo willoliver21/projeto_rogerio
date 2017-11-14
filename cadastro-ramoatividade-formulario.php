@@ -8,15 +8,7 @@
         <tr>
             <td>Nome</td>
             <td><input class="form-control" type="text" name="desc" /></td>
-        </tr>
-        <tr>
-            <td>Data de Fim(mudar)</td>
-            <td><input class="form-control" type="date" name="data" /></td>
-        </tr>
-        <tr>
-            <td>Usuário exclusão(não sei que **** é essa)</td>
-            <td><input class="form-control" type="text" name="*****" /></td>
-        </tr>
+        </tr>        
     </table>
       <td><button class="btn btn-primary" type="submit">Cadastrar</button></td>
 </form>

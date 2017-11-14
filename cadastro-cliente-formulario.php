@@ -28,19 +28,7 @@
         <tr>
             <td>CPF - CNPJ</td>
             <td><input class="form-control" type="text" name="cpf-cnpj" /></td>
-        </tr>
-        <tr>
-            <td>Data de Cadastro</td>
-            <td><input class="form-control" type="date" name="data" /></td>
-        </tr>
-        <tr>
-            <td>Data de Fim(?porra é essa)</td>
-            <td><input class="form-control" type="date" name="data" /></td>
-        </tr>
-        <tr>
-            <td>Usuário exclusão(....?)</td>
-            <td><input class="form-control" type="text" name="data" /></td>
-        </tr>
+        </tr>        
         <tr>
             <td>Telefone</td>
             <td><input class="form-control" type="text" name="data" /></td>
