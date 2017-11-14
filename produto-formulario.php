@@ -18,7 +18,7 @@ $categorias = listaCategorias($conexao); //funcao do banco-categoria
         </tr>
 
         <tr>
-            <td>Categoria</td>  //cria selecct
+            <td>Categoria</td>
             <td>
                 <select name="categoria_id">
                 <?php foreach($categorias as $categoria) : ?><!-- //percorre as categorias e coloca no option o id de forma oculta e o nome da categoria visivel para o usuario -->
