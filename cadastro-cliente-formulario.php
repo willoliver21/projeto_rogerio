@@ -16,11 +16,7 @@
         <tr>
             <td>Senha</td>
             <td><input class="form-control" type="text" name="senha" /></td>
-        </tr>
-        <tr>
-            <td>Nível</td>
-            <td><input class="form-control" type="text" name="nivel" /></td>
-        </tr>
+        </tr>        
         <tr>
             <td>RG - Inscrição Estadual</td>
             <td><input class="form-control" type="text" name="rg-ie" /></td>
@@ -28,7 +24,7 @@
         <tr>
             <td>CPF - CNPJ</td>
             <td><input class="form-control" type="text" name="cpf-cnpj" /></td>
-        </tr>        
+        </tr>
         <tr>
             <td>Telefone</td>
             <td><input class="form-control" type="text" name="data" /></td>
