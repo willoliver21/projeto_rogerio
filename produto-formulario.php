@@ -5,7 +5,7 @@
 $categorias = listaCategorias($conexao); //funcao do banco-categoria
 ?>
 
-<h1>Formulário de cadastro</h1> <!-- //cria formulario -->
+<h1>Cadastro de Produtos</h1> <!-- //cria formulario -->
 <form action="adiciona-produto.php" method="post"> <!-- // chama pagina adiciona-produto-->
     <table class="table"> <!-- //cria tabela -->
         <tr>
