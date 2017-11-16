@@ -3,7 +3,7 @@
       include("banco-categoria.php");
 ?>
 <h1>Formulário de cadastro</h1> <!-- //cria formulario -->
-<form action="adiciona-produto.php" method="post"> <!-- // chama pagina adiciona-produto-->
+<form action="add-clientes.php" method="post"> <!-- // chama pagina adiciona-produto-->
     <table class="table"> <!-- //cria tabela -->
         <tr>
             <td>Nome</td>
@@ -16,7 +16,7 @@
         <tr>
             <td>Senha</td>
             <td><input class="form-control" type="text" name="senha" /></td>
-        </tr>        
+        </tr>
         <tr>
             <td>RG - Inscrição Estadual</td>
             <td><input class="form-control" type="text" name="rg-ie" /></td>
@@ -27,11 +27,11 @@
         </tr>
         <tr>
             <td>Telefone</td>
-            <td><input class="form-control" type="text" name="data" /></td>
+            <td><input class="form-control" type="text" name="tel" /></td>
         </tr>
         <tr>
             <td>Celular</td>
-            <td><input class="form-control" type="text" name="data" /></td>
+            <td><input class="form-control" type="text" name="cel" /></td>
         </tr>
         <tr>
             <td>Data de Nascimento</td>
