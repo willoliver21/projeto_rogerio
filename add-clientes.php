@@ -1,6 +1,5 @@
 <?php
-$dbh = new mysqli('localhost', 'root', '', 'tads4');
-$dbh->autocommit(false);
+include("conecta.php");
 
 $nome = $_POST["nome"];
 $mail = $_POST["mail"];
@@ -17,26 +16,30 @@ $bairro = $_POST["bairro"];
 $complemento = $_POST["complemento"];
 $cep = $_POST["cep"];
 
-
-  //$dbh->beginTransaction();
-  $dbh->query("INSERT INTO endereco('rua', 'numero', 'bairro', 'complemento', 'cep', 'estado_id_estado')
-                    VALUES ('$rua', '$numero', '$bairro', '$complemento', '$cep', '1')");
-
-  $id = 0;
-  //Pegar ID
-
-
-  $dbh->query("INSERT INTO pessoa('nome', 'rg_ie', 'cpf_cnpj, 'data_cadastro', 'data_fim', 'telefone', 'celular', 'endereco_id_endereco', 'Login_id_login')
-                  VALUES ('$nome', '$rgie', '$cpfcnpj', 'null', 'null', '$tel', '$cel', '$id', 'null')");
-
-  $id = 0;
-
-  $dbh->query("INSERT INTO cliente('data_nascimento', 'renda', '$id')
-                   VALUES ('null', '$data', ''$renda', '$id')");
+$query = "INSERT INTO `endereco`(`rua`, `numero`, `bairro`, `complemento`, `cep`, `estado_id_estado`)
+VALUES ('$rua', '$numero', '$bairro', '$complemento', '$cep', '1')";
 
 
 
-  $dbh->commit();
+mysqli_query($conexao, $query);
 
-  $dbh->close();
+$id = mysqli_insert_id($conexao);
+
+$query = "INSERT INTO `pessoa`(`nome`, `rg_ie`, `cpf_cnpj`, `telefone`, `celular`, `endereco_id_endereco`, `Login_id_login`)
+VALUES ('$nome', '$rgie', '$cpfcnpj', '$tel', '$cel', '$id', 'null')";
+
+mysqli_query($conexao, $query);
+
+$id = mysqli_insert_id($conexao);
+
+$query = "INSERT INTO `cliente`(`data_nascimento`, `renda`, `pessoa_id_pessoa`)
+VALUES ('$data', '$renda', '$id')";
+
+
+
+mysqli_query($conexao, $query);
+
+mysqli_close($conexao);
+header("Location: index.php");
+
 ?>
