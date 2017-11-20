@@ -1,5 +1,5 @@
 <?php
-$host = "127.0.0.1:33066";
+$host = "localhost";
 $user = "root";
 $pass = "";
 $banco = "tads4";
