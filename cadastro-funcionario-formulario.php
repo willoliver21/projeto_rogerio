@@ -45,6 +45,10 @@
             <td><input class="form-control" type="date" name="nascimento" /></td>
         </tr>
         <tr>
+            <td>Estado</td>
+            <td><input class="form-control" type="text" name="estado" /></td>
+        </tr>
+        <tr>
             <td>Rua</td>
             <td><input class="form-control" type="text" name="rua" /></td>
         </tr>

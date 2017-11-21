@@ -23,14 +23,12 @@
 										!-->
 										<li><a href="cadastro-cliente-formulario.php">Cliente</a></li>
 										<li><a href="cadastro-funcionario-formulario.php">Funcionario</a></li>
-										<!--
-										<li><a href="cadastro-endereco-formulario.php">Endereço</a></li>
-										!-->
+										<li><a href="cadastro-estado-formulario.php">Estado</a></li>
 										<li><a href="cadastro-cargo-formulario.php">Cargo</a></li>
 										<li><a href="cadastro-fornecedor-formulario.php">Fornecedor</a></li>
-										<!--
 										<li><a href="cadastro-ramoatividade-formulario.php">Ramo Atividade</a></li>
-										!-->
+										<li><a href="cadastro-unidademedida-formulario.php">Unidade de Medida</a></li>
+										<li><a href="cadastro-categoria-formulario.php">Categoria</a></li>
                 </ul>
 			</div>
 		</div>

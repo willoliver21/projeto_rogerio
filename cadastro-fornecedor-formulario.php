@@ -41,6 +41,10 @@
             <td><input class="form-control" type="text" name="nome" /></td>
         </tr>
         <tr>
+            <td>Estado</td>
+            <td><input class="form-control" type="text" name="estado" /></td>
+        </tr>
+        <tr>
             <td>Rua</td>
             <td><input class="form-control" type="text" name="rua" /></td>
         </tr>

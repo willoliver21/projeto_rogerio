@@ -1,6 +1,5 @@
 <?php
 include("conecta.php");
-include("controle_historico.php");
 
 $nome = $_POST["nome"];
 $mail = $_POST["mail"];
@@ -20,6 +19,8 @@ $cep = $_POST["cep"];
 $query = "INSERT INTO `endereco`(`rua`, `numero`, `bairro`, `complemento`, `cep`, `estado_id_estado`)
 VALUES ('$rua', '$numero', '$bairro', '$complemento', '$cep', '1')";
 
+
+
 mysqli_query($conexao, $query);
 
 $id = mysqli_insert_id($conexao);
@@ -34,8 +35,7 @@ $id = mysqli_insert_id($conexao);
 $query = "INSERT INTO `cliente`(`data_nascimento`, `renda`, `pessoa_id_pessoa`)
 VALUES ('$data', '$renda', '$id')";
 
-//CHAMAR FUNÇÃO INSEREHISTORICO EM TODAS OPERAÇÕES
-insereHistorico($conexao, 1, 1, 20-11-2017, "Descricao");
+
 
 mysqli_query($conexao, $query);
 

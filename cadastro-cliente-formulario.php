@@ -41,6 +41,12 @@
             <td>Renda</td>
             <td><input class="form-control" type="number" name="renda" /></td>
         </tr>
+        <TR>
+            <td>
+                Estado
+            </td>
+            <td><input class="form-control" type="test" name="estado"/></td>
+        </TR>
         <tr>
             <td>Rua</td>
             <td><input class="form-control" type="text" name="rua" /></td>
