@@ -35,7 +35,8 @@
           <li><a href="listar-clientes.php">Clientes</a></li>
           <li><a href="#">Fornecedores</a></li>
           <li><a href="#">Funcionários</a></li>
-		  	  <li><a href="#">Produtos</a></li>
+	  <li><a href="#">Produtos</a></li>
+		<li><a href="listar-historico.php">Log de Auditoria</a></li>
 
         </ul>
       </li>
