@@ -26,11 +26,11 @@
         </tr>
         <tr>
             <td>Telefone</td>
-            <td><input class="form-control" type="text" name="data" /></td>
+            <td><input class="form-control" type="text" name="tel" /></td>
         </tr>
         <tr>
             <td>Celular</td>
-            <td><input class="form-control" type="text" name="data" /></td>
+            <td><input class="form-control" type="text" name="cel" /></td>
         </tr>
         <tr>
             <td>Salário</td>
