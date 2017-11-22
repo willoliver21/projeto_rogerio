@@ -1,4 +1,5 @@
 <?php
+include("conecta.php");
 
 // $id_op =  id da operacao que sera  deletado, inserido ou atualziado
 // $id_funcionario = id de quem esta logado
