@@ -29,6 +29,7 @@
 										<li><a href="cadastro-ramoatividade-formulario.php">Ramo Atividade</a></li>
 										<li><a href="cadastro-unidademedida-formulario.php">Unidade de Medida</a></li>
 										<li><a href="cadastro-categoria-formulario.php">Categoria</a></li>
+										<li><a href="listar-clientes.php">Listar Clientes</a></li>
                 </ul>
 			</div>
 		</div>
