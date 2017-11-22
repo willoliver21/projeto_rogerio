@@ -16,10 +16,18 @@ include("cabecalho.php");
   <table id="example">
     <thead>
       <tr>
-          <th>id_cliente</th>
-          <th>data_nascimento</th>
-          <th>renda</th>
-          <th>pessoa_id_pessoa</th>
+           <th>Nome</th>
+          <th>RG</th>
+          <th>CPF</th>
+         <th>Data Cadastro</th>
+         <th>Telefone</th>
+         <th>Renda</th>
+         <th>Data Nascimento</th>
+         <th>Rua</th>
+         <th>Numero</th>
+         <th>Bairro</th>
+         <th>CEP</th>
+    
       </tr>
     </thead>
   </table>
@@ -35,10 +43,17 @@ include("cabecalho.php");
         "bProcessing": true,
         "sAjaxSource": "busca-clientes-lista.php",
         "aoColumns": [
-              { mData: 'id_cliente' },
-              { mData: 'data_nascimento' },
-              { mData: 'renda' },
-              { mData: 'pessoa_id_pessoa' }
+               { mData: 'nome' },
+               { mData: 'rg_ie' },
+               { mData: 'cpf_cnpj' },
+               { mData: 'data_cadastro' },
+               { mData: 'telefone' },
+               { mData: 'renda' },
+               { mData: 'data_nascimento' },
+               { mData: 'rua' },
+               { mData: 'numero' },
+               { mData: 'bairro' },           
+              { mData: 'cep' }
             ]
       });
   });
