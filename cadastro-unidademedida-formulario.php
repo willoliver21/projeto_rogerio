@@ -1,9 +1,8 @@
 <?php include("cabecalho.php");
       include("conecta.php");
-      include("banco-categoria.php");
 ?>
 <h1>Cadastro de Unidade de Medida</h1> <!-- //cria formulario -->
-<form action="adiciona-produto.php" method="post"> <!-- // chama pagina adiciona-produto-->
+<form action="add-unidademedida.php" method="post"> <!-- // chama pagina adiciona-produto-->
     <table class="table"> <!-- //cria tabela -->
         <tr>
             <td>Unidade</td>

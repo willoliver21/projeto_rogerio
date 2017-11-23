@@ -3,7 +3,7 @@
       include("banco-categoria.php");
 ?>
 <h1>Cadastro de Funcionário</h1> <!-- //cria formulario -->
-<form action="add-funcionario.php" method="post"> <!-- // chama pagina adiciona-produto-->
+<form action="adiciona-produto.php" method="post"> <!-- // chama pagina adiciona-produto-->
     <table class="table"> <!-- //cria tabela -->
       <td>Nome</td>
             <td><input class="form-control" type="text" name="nome" /></td>
@@ -26,11 +26,11 @@
         </tr>
         <tr>
             <td>Telefone</td>
-            <td><input class="form-control" type="text" name="telefone" /></td>
+            <td><input class="form-control" type="text" name="data" /></td>
         </tr>
         <tr>
             <td>Celular</td>
-            <td><input class="form-control" type="text" name="celular" /></td>
+            <td><input class="form-control" type="text" name="data" /></td>
         </tr>
         <tr>
             <td>Salário</td>
@@ -38,11 +38,11 @@
         </tr>
         <tr>
             <td>Faixa de Comissão</td>
-            <td><input class="form-control" type="number" name="faixa" /></td>
+            <td><input class="form-control" type="number" name="comissao" /></td>
         </tr>
         <tr>
             <td>Data de Nascimento</td>
-            <td><input class="form-control" type="date" name="data" /></td>
+            <td><input class="form-control" type="date" name="nascimento" /></td>
         </tr>
         <tr>
             <td>Estado</td>

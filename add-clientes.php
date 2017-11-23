@@ -1,5 +1,6 @@
 <?php
 include("conecta.php");
+include("controle_historico.php");
 
 $nome = $_POST["nome"];
 $mail = $_POST["mail"];
@@ -35,9 +36,7 @@ $id = mysqli_insert_id($conexao);
 $query = "INSERT INTO `cliente`(`data_nascimento`, `renda`, `pessoa_id_pessoa`)
 VALUES ('$data', '$renda', '$id')";
 
-
-
-mysqli_query($conexao, $query);
+insereHistorico($conexao, 1, 2, null, 'Cliente_Pessoa_Endereco');
 
 mysqli_close($conexao);
 header("Location: index.php");

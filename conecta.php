@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$banco = "tads4";
+$banco = "estoque";
 
 $conexao = mysqli_connect($host,$user,$pass, $banco);
 ?>
