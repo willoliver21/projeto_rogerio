@@ -20,14 +20,14 @@
       <li class="active"><a href="index.php">Home</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Cadastro <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="cadastro-cliente-formulario.php">Novo Cliente</a></li>
-          <li><a href="cadastro-fornecedor-formulario.php">Novo Fornecedor</a></li>
-          <li><a href="cadastro-funcionario-formulario.php">Novo Funcionário</a></li>
-		  		<li><a href="produto-formulario.php">Novo Produto</a></li>
-		  		<li><a href="cadastro-cargo-formulario.php">Novo Cargo</a></li>
-					<li><a href="cadastro-ramoatividade-formulario.php">Novo Ramo Atividade</a></li>
-					<li><a href="cadastro-unidademedida-formulario.php">Nova Unidade Medida</a></li>
-					<li><a href="cadastro-cargo-formulario.php">Nova Categoria</a></li>
+          <li><a href="cadastro-cliente-formulario.php">Cliente</a></li>
+          <li><a href="cadastro-fornecedor-formulario.php">Fornecedor</a></li>
+          <li><a href="cadastro-funcionario-formulario.php">Funcionário</a></li>
+		  		<li><a href="produto-formulario.php">Produto</a></li>
+		  		<li><a href="cadastro-cargo-formulario.php">Cargo</a></li>
+					<li><a href="cadastro-ramoatividade-formulario.php">Ramo Atividade</a></li>
+					<li><a href="cadastro-unidademedida-formulario.php">Unidade Medida</a></li>
+					<li><a href="cadastro-cargo-formulario.php">Categoria</a></li>
 
         </ul>
 		<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Consultar <span class="caret"></span></a>
