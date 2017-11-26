@@ -1,9 +1,8 @@
 <?php include("cabecalho.php");
       include("conecta.php");
-      include("banco-categoria.php");
 ?>
 <h1>Cadastro de Fornecedor</h1> <!-- //cria formulario -->
-<form action="adiciona-produto.php" method="post"> <!-- // chama pagina adiciona-produto-->
+<form action="add-fornecedor.php" method="post"> <!-- // chama pagina adiciona-produto-->
     <table class="table"> <!-- //cria tabela -->
         <td>Nome</td>
             <td><input class="form-control" type="text" name="nome" /></td>
@@ -30,15 +29,15 @@
         </tr>
         <tr>
             <td>Telefone</td>
-            <td><input class="form-control" type="text" name="data" /></td>
+            <td><input class="form-control" type="text" name="tel" /></td>
         </tr>
         <tr>
             <td>Celular</td>
-            <td><input class="form-control" type="text" name="data" /></td>
+            <td><input class="form-control" type="text" name="cel" /></td>
         </tr>
         <tr>
-            <td>Razão Social(inútil)</td>
-            <td><input class="form-control" type="text" name="nome" /></td>
+            <td>Razão Social</td>
+            <td><input class="form-control" type="text" name="razaosocial" /></td>
         </tr>
         <tr>
             <td>Estado</td>
