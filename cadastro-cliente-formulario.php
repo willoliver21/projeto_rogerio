@@ -15,7 +15,7 @@
         </tr>
         <tr>
             <td>Senha</td>
-            <td><input class="form-control" type="text" name="senha" /></td>
+            <td><input class="form-control" type="password" name="senha" /></td>
         </tr>
         <tr>
             <td>RG - Inscrição Estadual</td>

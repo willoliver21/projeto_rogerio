@@ -27,7 +27,7 @@ include("cabecalho.php");
          <th>Numero</th>
          <th>Bairro</th>
          <th>CEP</th>
-    
+
       </tr>
     </thead>
   </table>
@@ -52,7 +52,7 @@ include("cabecalho.php");
                { mData: 'data_nascimento' },
                { mData: 'rua' },
                { mData: 'numero' },
-               { mData: 'bairro' },           
+               { mData: 'bairro' },
               { mData: 'cep' }
             ]
       });
